@@ -1,0 +1,24 @@
+body{
+  background-color:tan;
+}
+.container{
+  display: inline-block;
+  font-size: larger;
+  text-align: center;
+}
+.column{
+  padding-left: 50px;
+  float: right;
+  width: 50%;
+  height: 100%;
+  }
+
+  .row:after {
+  content: "";
+  display: table;
+  clear: both;
+  }
+.column 1{
+  margin-top:30px;
+  padding-top: 20px;
+}
